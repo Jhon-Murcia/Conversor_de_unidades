@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversión de unidades</title>
+    <script src="codigoconvertidor.js"></script>
+    <style>
+        body {
+            background-image: url('fondo.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat;
+        }
+        .opcion {
+            background-color: rgba(255, 255, 255, 0.7); 
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            width: 50%;
+            margin: 20px auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">CONVERSOR DE UNIDADES</h1>
+
+    <div class="opcion">
+        <h3>Ingrese valor para mostrar su valor en ASCII y su binario </h3>
+        <input id="letra" type="text">
+        <input type="submit" onclick="ejecutar()" value="Calcular">
+        <input type="submit" onclick="limpiar()" value="Borrar">
+        <p id="texto1"></p>
+    </div>
+    <br>
+    </br>
+    <br>
+    </br>
+
+    <div class="opcion">
+        <h3>Ingrese un binario para mostrar su valor en ASCII y su símbolo</h3>
+        <input id="binario" type="number">
+        <input type="submit" onclick="ejecutar2()" value="Calcular">
+        <input type="submit" onclick="limpiar2()" value="Borrar">
+        <p id="texto2"></p>
+    </div>
+</body>
+</html>
+
