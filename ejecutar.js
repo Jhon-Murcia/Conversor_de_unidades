@@ -31,3 +31,13 @@ function ejecutar2() {
 
     document.getElementById("texto2").innerText="El valor en ASCII es: "+suma + " y el caracter es: " + caracter;
 }
+
+function limpiar() {
+    document.getElementById("letra").value = "";  // Borra el input
+    document.getElementById("texto1").innerText = ""; // Borra el resultado
+}
+
+function limpiar2() {
+    document.getElementById("binario").value = "";  // Borra el input
+    document.getElementById("texto2").innerText = ""; // Borra el resultado
+}
