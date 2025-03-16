@@ -38,6 +38,6 @@ function limpiar() {
 }
 
 function limpiar2() {
-    document.getElementById("binario").value = "";  // Borra el input
-    document.getElementById("texto2").innerText = ""; // Borra el resultado
+    document.getElementById("binario").value = "";  
+    document.getElementById("texto2").innerText = ""; 
 }
